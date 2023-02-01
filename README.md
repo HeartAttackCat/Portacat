@@ -1,18 +1,10 @@
-## Getting Started
+## Introduction
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to Java text based game. This project is designed as a way to learn Java and explore the functional properties of java.
 
-## Folder Structure
+## What is Portacat?
 
-The workspace contains two folders by default, where:
+Portacat combines the words Portable and Cat together. The the word Portable is derived from the fact Java is a highly portable language, giving it good cross platform function. The word Cat comes from the fact that Portacat is a roguelike text based game where your a cat in a world filled with monsters. You will have to gain items and level up. This code will use abstraction and OOP(Object Oritientated Programmming) to form a solid easy to read and expandable code base.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
