@@ -2,13 +2,12 @@ package net.cattack.portacat.display;
 
 public class TestMain {
     public static void main(String[] args) {
-        Term.clear();
+        ScreenBuf buf = new ScreenBuf(80, 24);
         for (int i = 0; i < 20; i++) {
-            Term.move(i, 20 - i);
-            Term.setForeground(TermColor.Cyan);
-            Term.put("x");
+            buf.put(i, i, 'x', TermColor.Green, TermColor.Blue);
+            buf.flush();
             try {
-                Thread.sleep(100);
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

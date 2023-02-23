@@ -25,6 +25,14 @@ public class Term {
     }
 
     /**
+     * Put a character to the terminal, wherever the curser happens to
+     * be.
+     */
+    public static void put(char s) {
+        System.out.print(s);
+    }
+
+    /**
      * Set the foreground color.
      */
     public static void setForeground(TermColor color) {
