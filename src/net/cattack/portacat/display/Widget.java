@@ -17,6 +17,11 @@ public interface Widget {
     public int minHeight();
 
     /**
+     * Get the factor by which this widget can stretch.
+     */
+    public double stretchFactor();
+
+    /**
      * Draw the widget at the given coordinates, with the given size.
      */
     public void draw(int x, int y, int w, int h);
