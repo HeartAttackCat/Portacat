@@ -2,8 +2,11 @@ package net.cattack.portacat;
 
 import java.util.logging.Logger;
 
+import net.cattack.portacat.lang.LangHandler;
+
 public class App {
 
+    public static String langFile;
     public static Logger log;
 
     public static void main(String[] args) throws Exception {
@@ -17,6 +20,7 @@ public class App {
 
     public static void start() {
         System.out.println("Starting system...");
+        langFile = "test.txt";
         //Starting the system
     }
 
@@ -25,6 +29,7 @@ public class App {
     }
 
     public static void init() {
-        // Intitialization before running
+        LangHandler lang = new LangHandler(langFile);
+        lang.parseLang();
     }
 }
