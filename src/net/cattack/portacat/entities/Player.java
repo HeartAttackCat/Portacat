@@ -1,4 +1,4 @@
-package net.catattack.portacat.entities;
+package net.cattack.portacat.entities;
 
 import java.util.ArrayList;
 
@@ -17,18 +17,22 @@ public class Player implements Entity {
         this.inventory = new ArrayList<Item>();
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public int getMaxHealth() {
         return 100;
     }
 
+    @Override
     public int getHealth() {
         return health;
     }
 
+    @Override
     public ArrayList<Item> getInventory() {
         return inventory;
     }
